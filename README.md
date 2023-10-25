@@ -1,6 +1,6 @@
 # go-pointers
 
-[![Static Badge](https://img.shields.io/badge/go.dev-reference-007d9c?style=for-the-badge&logo=go&logoColor=white)](https://pkg.go.dev/github.com/neocotic/go-pointers)
+[![Go Reference](https://img.shields.io/badge/go.dev-reference-007d9c?style=for-the-badge&logo=go&logoColor=white)](https://pkg.go.dev/github.com/neocotic/go-pointers)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/neocotic/go-pointers/ci.yml?style=for-the-badge)](https://github.com/neocotic/go-pointers/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/neocotic/go-pointers?style=for-the-badge)](https://github.com/neocotic/go-pointers)
 [![License](https://img.shields.io/github/license/neocotic/go-pointers?style=for-the-badge)](https://github.com/neocotic/go-pointers/blob/main/LICENSE.md)
