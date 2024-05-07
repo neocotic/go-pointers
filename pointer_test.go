@@ -110,6 +110,10 @@ func Test_Uint64(t *testing.T) {
 	testPointerFunc(t, Uint64, 0, 1, math.MaxUint64)
 }
 
+func Test_Uintptr(t *testing.T) {
+	testPointerFunc(t, Uintptr, 0, 1, math.MaxUint)
+}
+
 func Test_Value(t *testing.T) {
 	type test struct {
 		String string
@@ -196,6 +200,10 @@ func Test_ZeroUint32(t *testing.T) {
 
 func Test_ZeroUint64(t *testing.T) {
 	testPointerConstFunc(t, ZeroUint64, 0)
+}
+
+func Test_ZeroUintptr(t *testing.T) {
+	testPointerConstFunc(t, ZeroUintptr, 0)
 }
 
 func testPointerFunc[T comparable](t *testing.T, fn func(val T) *T, vals ...T) {

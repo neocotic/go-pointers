@@ -129,6 +129,11 @@ func Uint64(val uint64) *uint64 {
 	return &val
 }
 
+// Uintptr returns a pointer to the given uintptr value.
+func Uintptr(val uintptr) *uintptr {
+	return &val
+}
+
 // Value returns a pointer to the given value.
 func Value[T any](val T) *T {
 	return &val
@@ -245,5 +250,11 @@ func ZeroUint32() *uint32 {
 // ZeroUint64 returns a pointer to a zero uint64 value.
 func ZeroUint64() *uint64 {
 	var val uint64
+	return &val
+}
+
+// ZeroUintptr returns a pointer to a zero uintptr value.
+func ZeroUintptr() *uintptr {
+	var val uintptr
 	return &val
 }
