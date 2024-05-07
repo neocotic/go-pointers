@@ -18,7 +18,7 @@ go install github.com/neocotic/go-pointers
 Then import the package into your own code:
 
 ``` go
-import "github.com/neocotic/go-pointers"
+import ptrs "github.com/neocotic/go-pointers"
 ```
 
 ## Documentation
@@ -87,6 +87,6 @@ A list of contributors can be found in [AUTHORS.md](https://github.com/neocotic/
 
 ## License
 
-Copyright © 2023 neocotic
+Copyright © 2024 neocotic
 
 See [LICENSE.md](https://github.com/neocotic/go-pointers/raw/main/LICENSE.md) for more information on our MIT license.
